@@ -131,6 +131,10 @@
 
             sortData(j.feed.entry, settings.sortPhotos);
 
+            // empty the contents of the element (this way, you can put some default contents in,
+            // before the script returns and loads the photos)
+            $self.empty();
+
             for (var i = 0; i < $np; i++){
                 $self.append(
                     photo(j.feed.entry[i])
