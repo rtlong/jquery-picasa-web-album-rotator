@@ -52,7 +52,7 @@
  * @copyright (c) 2010-2011 Jeroen Diderik(www.jdee.nl)
  * @license Creative Commons Attribution-Share Alike 3.0 Netherlands License - http://creativecommons.org/licenses/by-sa/3.0/nl/
  * @Visit http://pwi.googlecode.com/ for more informations, duscussions etc about this library
- */jquery-picasa-web-album-rotator/
+ */
 (function ($) {
     var elem, opts = {};
     $.fn.picasa_slideshow = function (opts) {
